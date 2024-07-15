@@ -98,6 +98,7 @@ header {
 
 .List_Exp{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 70%;
     /* border: 1px solid yellow; */
@@ -108,6 +109,7 @@ header {
     width: 60px;
     height: 60px;
     padding: 10px;
+    margin: 0 10px;
 }
 @media (max-width: 768px) {
     hr{
@@ -151,5 +153,16 @@ header {
     .text-content p{
         width: 100%;
         word-wrap: break-word;
+    }
+    .List_Exp{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+    }
+    .list_exp_img{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
     }
 }
