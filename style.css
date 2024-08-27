@@ -210,13 +210,17 @@ header {
     .Tec_context h1, .Tec_context p{
         text-align: center;
     }
-    .List_Exp{
-        margin: auto;
+    .List_Exp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
     }
-    .list_exp_img{
+    
+    .list_exp_img {
         width: 30px;
-        height: 30px;
-        padding: 10px;
-        margin: 3px;
+        height: auto;
+        margin: 5px;
     }
 }
